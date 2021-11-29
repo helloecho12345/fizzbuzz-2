@@ -5,3 +5,11 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(3)).to eq 'fizz'
   end
 end
+
+# Create a test for buzz
+
+describe 'fizzbuzz' do
+  it 'returns "buzz" when passed 5' do
+    expect(fizzbuzz(5)).to eq 'buzz'
+  end
+end
