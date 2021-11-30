@@ -65,7 +65,21 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(60)).to eq 'fizzbuzz'
   end
 end
+
 # Create a test for number if is it not divisible by 3 or 5
 
 # Add cases for 7, 41
+
+describe 'fizzbuzz' do
+  it 'returns number if number passed 7' do
+    expect(fizzbuzz(7)).to eq 7
+  end
+end
+
+describe 'fizzbuzz' do
+  it 'returns number if number passed 41' do
+    expect(fizzbuzz(41)).to eq 41
+  end
+end
+
 
