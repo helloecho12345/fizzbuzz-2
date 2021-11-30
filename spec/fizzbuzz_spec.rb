@@ -17,18 +17,30 @@ describe 'fizzbuzz' do
 end
 
 describe 'fizzbuzz' do
-  it 'returns "fizz" when passed 9' do
+  it 'returns "fizz" when passed 27' do
     expect(fizzbuzz(27)).to eq 'fizz'
   end
 end
-
-# Add more cases to chec for 25, 100
 
 # Create a test for buzz
 
 describe 'fizzbuzz' do
   it 'returns "buzz" when passed 5' do
     expect(fizzbuzz(5)).to eq 'buzz'
+  end
+end
+
+# Add more cases to chec for 25, 100
+
+describe 'fizzbuzz' do
+  it 'returns "buzz" when passed 25' do
+    expect(fizzbuzz(25)).to eq 'buzz'
+  end
+end
+
+describe 'fizzbuzz' do
+  it 'returns "buzz" when passed 100' do
+    expect(fizzbuzz(100)).to eq 'buzz'
   end
 end
 
